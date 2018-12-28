@@ -1,7 +1,8 @@
+package excel.lib;
+
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.util.Iterator;
 import javax.swing.JFileChooser;
 
 import org.apache.poi.ss.usermodel.Row;
@@ -12,7 +13,7 @@ import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 
-public class Excel {
+public class Reader {
 
 	public static void main(String[] args) {
 		JFileChooser fileChooser = new JFileChooser();
