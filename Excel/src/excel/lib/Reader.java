@@ -14,6 +14,26 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 
 public class Reader {
+	private String lotName;
+	
+	public String getLotName() {
+		return lotName;
+	}
+
+	public void setLotName(String lotName) {
+		this.lotName = lotName;
+	}
+
+	public Reader(String lotName) {
+		this.lotName = lotName;
+	}
+	
+	public void CreateDailySale() {
+		System.out.println("Creating Daily Sale Template for " + getLotName());
+		System.out.println("Read Item Sheet");
+		System.out.println("Create Daily Sale Sheet");
+		System.out.println("Save Excel Template with lot name");
+	}
 
 	public static void main(String[] args) {
 		JFileChooser fileChooser = new JFileChooser();
