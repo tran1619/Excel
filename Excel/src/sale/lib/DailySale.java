@@ -1,8 +1,9 @@
-package excel;
+package sale.lib;
 
 import java.util.Scanner;
 
 import excel.lib.Reader;
+import sale.gui.SaleScreen;
 
 public class DailySale {
 
@@ -15,6 +16,7 @@ public class DailySale {
 		System.out.println("My Lot # is " + reader.getLotName());
 		
 		reader.CreateDailySale();
+		SaleScreen scs = new SaleScreen();
 		sc.close();
 
 	}
