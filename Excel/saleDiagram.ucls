@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.2" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <package id="1" language="java" name="inventory.lib" project="SaleInterface" file="/SaleInterface/src/inventory/lib" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="238" y="107"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="2" language="java" name="sale.lib" project="SaleInterface" file="/SaleInterface/src/sale/lib" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="393" y="107"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="3" language="java" name="excel.lib" project="SaleInterface" file="/SaleInterface/src/excel/lib" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="621" y="101"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="4" language="java" name="sale.gui" project="SaleInterface" file="/SaleInterface/src/sale/gui" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="101" x="751" y="81"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="5" language="java" name="excel.lib.Reader" project="SaleInterface" 
+    file="/SaleInterface/src/excel/lib/Reader.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="642" y="226"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="inventory.lib.Item" project="SaleInterface" 
+    file="/SaleInterface/src/inventory/lib/Item.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="242" y="287"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="sale.gui.SaleScreen" project="SaleInterface" 
+    file="/SaleInterface/src/sale/gui/SaleScreen.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="434" y="198"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="sale.lib.DailySale" project="SaleInterface" 
+    file="/SaleInterface/src/sale/lib/DailySale.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="814" y="195"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

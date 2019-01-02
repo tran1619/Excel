@@ -1,4 +1,4 @@
-package sale.gui;
+
 
 import java.awt.GridLayout;
 

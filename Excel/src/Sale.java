@@ -1,17 +1,14 @@
-package sale.lib;
+
 
 import java.util.Scanner;
 
-import excel.lib.Reader;
-import sale.gui.SaleScreen;
-
-public class DailySale {
+public class Sale {
 
 	public static void main(String[] args) {
 		System.out.println("Enter Lot #: ");
 		Scanner sc = new Scanner(System.in);
 		String lotName = sc.next();
-		Reader reader = new Reader(lotName);
+		Lot reader = new Lot(lotName);
 		
 		System.out.println("My Lot # is " + reader.getLotName());
 		

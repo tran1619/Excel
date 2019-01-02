@@ -1,4 +1,4 @@
-package excel.lib;
+
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -13,8 +13,9 @@ import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 
-public class Reader {
+public class Lot {
 	private String lotName;
+	private List<Item> items;
 	
 	public String getLotName() {
 		return lotName;
@@ -24,8 +25,8 @@ public class Reader {
 		this.lotName = lotName;
 	}
 
-	public Reader(String lotName) {
-		this.lotName = lotName;
+	public Lot(String lot) {
+		this.lotName = lot;
 	}
 	
 	public void CreateDailySale() {
