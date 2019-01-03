@@ -9,8 +9,9 @@ public class Item {
 	private int casePerPallet;
 	private boolean active;
 	
-	public Item(String name) {
+	public Item(String name, int beginQuantity) {
 		this.name = name;
+		this.beginQuantity = beginQuantity;
 	}
 	
 	public String getName() {
